@@ -1,0 +1,58 @@
+:root {
+  --bg-color: #faf9f6;       /* Warm, slightly off-white */
+  --text-color: #2b2b2b;     /* Soft charcoal for high legibility */
+  --accent-color: #0066cc;   /* Primary link color */
+  --max-width: 680px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  font-family: 'Rokkit', serif;
+  font-size: 1.15rem;
+  line-height: 1.7;
+  padding: 4rem 1.5rem;
+}
+
+.container {
+  max-width: var(--max-width);
+  margin: 0 auto;
+}
+
+header h1 {
+  font-family: 'Basic', sans-serif;
+  font-weight: 400;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
+}
+
+.intro p {
+  margin-bottom: 2rem;
+}
+
+.links ul {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+}
+
+.links li {
+  margin-bottom: 0.5rem;
+}
+
+.links a {
+  color: var(--accent-color);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: opacity 0.2s ease;
+}
+
+.links a:hover {
+  opacity: 0.75;
+}
