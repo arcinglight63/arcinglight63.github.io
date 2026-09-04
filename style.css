@@ -56,3 +56,63 @@ header h1 {
 .links a:hover {
   opacity: 0.75;
 }
+
+/* Navigation */
+.back-link {
+  margin-bottom: 2rem;
+}
+
+.back-link a {
+  color: var(--accent-color);
+  text-decoration: none;
+  font-size: 0.95rem;
+}
+
+/* Post Typography */
+.post-date {
+  font-size: 0.95rem;
+  color: #666;
+  margin-top: -0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.post-content h1,
+.post-content h2,
+.post-content h3 {
+  font-family: 'Basic', sans-serif;
+  font-weight: 400;
+  line-height: 1.25;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+}
+
+.post-content p {
+  margin-bottom: 1.25rem;
+}
+
+.post-content ul,
+.post-content ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.post-content li {
+  margin-bottom: 0.4rem;
+}
+
+.post-content blockquote {
+  border-left: 3px solid #bbb;
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: #555;
+  font-style: italic;
+}
+
+.post-content pre {
+  background: #eee;
+  padding: 1rem;
+  overflow-x: auto;
+  border-radius: 4px;
+  margin-bottom: 1.25rem;
+  font-family: monospace;
+}
